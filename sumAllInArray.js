@@ -1,8 +1,7 @@
 //SUM ALL IN ARRAY
 
-let total = 0
 const sumAllInArray = arr => {
-
+  let total = 0
   arr.forEach((num) => {
     if (isNaN(num) === false) {
       total += Number(num)
